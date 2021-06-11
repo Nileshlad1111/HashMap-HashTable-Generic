@@ -1,46 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.HashTableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-11T10:42:06" hostname="LAPTOP-DILI6N8Q" time="0.012">
+<testsuite name="com.bridgelabz.HashTableTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-11T11:02:28" hostname="LAPTOP-DILI6N8Q" time="0.005">
   <properties/>
-  <testcase name="provideLargeSentence_WhenWordAddedToHasMap_ShouldReturnParanoidFrequency" classname="com.bridgelabz.HashTableTest" time="0.012"/>
-  <system-out><![CDATA[null
-null
-{K=paranoid V=1}
-{K=paranoid V=1}
-{K=paranoid V=1}->{K=are V=1}
-{K=paranoid V=1}->{K=are V=1}
-{K=paranoid V=1}->{K=are V=1}->{K=not V=1}
-{K=paranoid V=1}->{K=are V=1}->{K=not V=1}
-{K=paranoid V=2}->{K=are V=1}->{K=not V=1}
-{K=paranoid V=2}->{K=are V=1}->{K=not V=1}
-{K=paranoid V=2}->{K=are V=1}->{K=not V=1}->{K=because V=1}
-{K=paranoid V=2}->{K=are V=1}->{K=not V=1}->{K=because V=1}
-{K=paranoid V=2}->{K=are V=1}->{K=not V=1}->{K=because V=1}->{K=they V=1}
-{K=paranoid V=2}->{K=are V=1}->{K=not V=1}->{K=because V=1}->{K=they V=1}
-{K=paranoid V=2}->{K=are V=2}->{K=not V=1}->{K=because V=1}->{K=they V=1}
-{K=paranoid V=2}->{K=are V=2}->{K=not V=1}->{K=because V=1}->{K=they V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=1}->{K=they V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=1}->{K=they V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=1}->{K=they V=1}->{K=but V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=1}->{K=they V=1}->{K=but V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=1}->{K=but V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=1}->{K=but V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}->{K=deliberately V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}->{K=deliberately V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}->{K=deliberately V=1}->{K=into V=1}
-{K=paranoid V=3}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}->{K=deliberately V=1}->{K=into V=1}
-{K=paranoid V=4}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}->{K=deliberately V=1}->{K=into V=1}
-{K=paranoid V=4}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}->{K=deliberately V=1}->{K=into V=1}
-{K=paranoid V=4}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}->{K=deliberately V=1}->{K=into V=1}->{K=avoidable V=1}
-{K=paranoid V=4}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}->{K=deliberately V=1}->{K=into V=1}->{K=avoidable V=1}
-{K=paranoid V=4}->{K=are V=2}->{K=not V=1}->{K=because V=2}->{K=they V=2}->{K=but V=1}->{K=keep V=1}->{K=putting V=1}->{K=themselves V=1}->{K=deliberately V=1}->{K=into V=1}->{K=avoidable V=1}->{K=situations V=1}
-]]></system-out>
+  <testcase name="provideSentence_WhenWordAddedToList_ShouldReturnFrequency" classname="com.bridgelabz.HashTableTest" time="0.004"/>
+  <testcase name="provideLargeSentence_WhenWordAddedToHasMap_ShouldReturnParanoidFrequency" classname="com.bridgelabz.HashTableTest" time="0.0"/>
+  <testcase name="provideWord_WhenRemovedFromHashMap_TestCaseShouldPass" classname="com.bridgelabz.HashTableTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

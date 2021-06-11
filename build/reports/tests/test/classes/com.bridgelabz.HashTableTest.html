@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">3</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.012s</div>
+<div class="counter">0.004s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,9 +63,6 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
-<li>
-<a href="#tab1">Standard output</a>
-</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -79,55 +76,20 @@
 </thead>
 <tr>
 <td class="success">provideLargeSentence_WhenWordAddedToHasMap_ShouldReturnParanoidFrequency</td>
-<td class="success">0.012s</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">provideSentence_WhenWordAddedToList_ShouldReturnFrequency</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">provideWord_WhenRemovedFromHashMap_TestCaseShouldPass</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 </table>
-</div>
-<div id="tab1" class="tab">
-<h2>Standard output</h2>
-<span class="code">
-<pre>null
-null
-{K=paranoid V=1}
-{K=paranoid V=1}
-{K=paranoid V=1}-&gt;{K=are V=1}
-{K=paranoid V=1}-&gt;{K=are V=1}
-{K=paranoid V=1}-&gt;{K=are V=1}-&gt;{K=not V=1}
-{K=paranoid V=1}-&gt;{K=are V=1}-&gt;{K=not V=1}
-{K=paranoid V=2}-&gt;{K=are V=1}-&gt;{K=not V=1}
-{K=paranoid V=2}-&gt;{K=are V=1}-&gt;{K=not V=1}
-{K=paranoid V=2}-&gt;{K=are V=1}-&gt;{K=not V=1}-&gt;{K=because V=1}
-{K=paranoid V=2}-&gt;{K=are V=1}-&gt;{K=not V=1}-&gt;{K=because V=1}
-{K=paranoid V=2}-&gt;{K=are V=1}-&gt;{K=not V=1}-&gt;{K=because V=1}-&gt;{K=they V=1}
-{K=paranoid V=2}-&gt;{K=are V=1}-&gt;{K=not V=1}-&gt;{K=because V=1}-&gt;{K=they V=1}
-{K=paranoid V=2}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=1}-&gt;{K=they V=1}
-{K=paranoid V=2}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=1}-&gt;{K=they V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=1}-&gt;{K=they V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=1}-&gt;{K=they V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=1}-&gt;{K=they V=1}-&gt;{K=but V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=1}-&gt;{K=they V=1}-&gt;{K=but V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=1}-&gt;{K=but V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=1}-&gt;{K=but V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}-&gt;{K=deliberately V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}-&gt;{K=deliberately V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}-&gt;{K=deliberately V=1}-&gt;{K=into V=1}
-{K=paranoid V=3}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}-&gt;{K=deliberately V=1}-&gt;{K=into V=1}
-{K=paranoid V=4}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}-&gt;{K=deliberately V=1}-&gt;{K=into V=1}
-{K=paranoid V=4}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}-&gt;{K=deliberately V=1}-&gt;{K=into V=1}
-{K=paranoid V=4}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}-&gt;{K=deliberately V=1}-&gt;{K=into V=1}-&gt;{K=avoidable V=1}
-{K=paranoid V=4}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}-&gt;{K=deliberately V=1}-&gt;{K=into V=1}-&gt;{K=avoidable V=1}
-{K=paranoid V=4}-&gt;{K=are V=2}-&gt;{K=not V=1}-&gt;{K=because V=2}-&gt;{K=they V=2}-&gt;{K=but V=1}-&gt;{K=keep V=1}-&gt;{K=putting V=1}-&gt;{K=themselves V=1}-&gt;{K=deliberately V=1}-&gt;{K=into V=1}-&gt;{K=avoidable V=1}-&gt;{K=situations V=1}
-</pre>
-</span>
 </div>
 </div>
 <div id="footer">
@@ -137,7 +99,7 @@ null
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.7</a> at 11 Jun, 2021 4:12:06 PM</p>
+<a href="http://www.gradle.org">Gradle 6.7</a> at 11 Jun, 2021 4:32:28 PM</p>
 </div>
 </div>
 </body>
